@@ -123,12 +123,13 @@ ol {
 }
 
 .search-form__textfield {
+  font-family: inherit; 
+  color: inherit;
   width: 225px;
   border: none;
   border-top: solid 2px #fff;
   border-bottom: solid 2px #fff;
   padding: 2.5px 14px 2.5px 0;
-  color: #fff;
   background-color: transparent;
   appearance: none;
 }
