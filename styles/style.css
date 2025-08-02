@@ -266,6 +266,7 @@ ol {
 }
 
 .content__video-card-title {
+  max-width: 196px;
   margin-top: -2px;
   overflow: hidden;
   color: #fff;
@@ -280,6 +281,8 @@ ol {
 }
 
 .content__video-card-description {
+  display: -webkit-box;
+  max-width: 196px;
   margin-top: 3px;
   overflow: hidden;
   color: #fff;
@@ -289,8 +292,9 @@ ol {
   font-style: normal;
   line-height: 16px;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 1;
-  white-space: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  white-space: wrap;
 }
 
 .content__video-card {
